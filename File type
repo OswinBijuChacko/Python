@@ -1,0 +1,7 @@
+type_list = ['.txt','.png','.jpg','.gif','.py','.mp4','.mp3','.mpeg','.pdf','.zip']
+name_list = ['text','Image','Image','Image','Python','Video','Audio','Video','document','compressed']
+file_name = input("Enter your file name HERE:")
+for type in type_list:
+    if str(type) in file_name:
+        index = int(type_list.index(type))
+        print("The extension of the file is : "+str(name_list[index]))
