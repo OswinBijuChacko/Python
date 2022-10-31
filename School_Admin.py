@@ -5,7 +5,7 @@
 print('Hey! User')
 print('Enter what you want to do user')
 print('You may add,show the table,remove a row,add sample data,clear the table')
-print('Use add,show,remove,add_sample,clear_table respectively")
+print('Use add,show,remove,add_sample,clear_table respectively')
 
 global data,samp_data
 data = ["ADMNO TIME YEAR NAME COURSE SCORE","HP1240 1993 3 Harry_potter Potions C","HG1240 1993 3 Hermione_Granger Potions B",
